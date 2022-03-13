@@ -4,9 +4,9 @@ from operator import itemgetter
 cards = ['King', 3, 9, 4, 7, 1, 'Queen', 'King', 'Queen', 13, 'Jack']
 
 """
-After my bad performance, I did a research on card deck (The common card game here does not have the QKJA cards)
+sort a list of integers and strings; ints(ascending) and strs(Jack, Queen, King)
 
-I figured I should do the solution here, knowing it does not change my outcome.
+Expected outcome of above list: [1, 3, 4, 7, 9, 13, 'Jack', 'King', 'Queen']
 """
 
 
